@@ -16,13 +16,13 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
+    momo,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    pnc,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Front-End Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Database Developer",
+      icon: mobile,
+    },
+    {
+      title: "Solution Designer",
       icon: creator,
     },
   ];
@@ -81,24 +81,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -116,55 +104,58 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer Intern",
+      company_name: "Momo",
+      icon: momo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2021 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built entire database tool for early start-up in the software development sector. Enabled authorized employees to write, read, and edit the company's database.",
+        "Database tool enabled all future authorized non-technical employees to manipulate the company’s database. Improved overall efficiency to application deployment.",
+        "Innovated and assessed new application ideas for application prototype.",
+        "Developed application utilizing React TypeScript, Apollo GraphQL, HTML, CSS, TypeORM, PostgreSQL, Heroku, Material-UI, Firebase, and Git.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Technology Development Program Associate",
+      company_name: "PNC Bank",
+      icon: pnc,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2022 - Mar 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Rotated on teams in 4 different lines of businesses at PNC Bank: Intelligent Automation, DevOps, Emerging Software Engineering, and Security.",
+        "Was a contributor to the FDIC-370 project processing 670,607K signature cards contributing to saving PNC bank $1.78 Million by developing classification and image extraction Artificial Intelligence (AI) models and Python scripts.",
+        "Upgraded the entire user interface of PNC’s software governance tool by performing an application migration of the Vue JavaScript framework from version 2 to version 3, thus increasing performance and maintainability of the tool.",
+        "Built 10 new API Services using C# with a .NET Core software framework that communicated with a third-party vendor that automates creation and updates of different entities in the team's application.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Engineer",
+      company_name: "PNC Bank",
+      icon: pnc,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Mar 2023 - Mar 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on multiple projects to develop new business servicing processes enabling bank employees to process loans within an internal software application; Increased traceability for millions of loans compared to previous manual process.",
+        "Built User Interface web pages, Application Programmable Interfaces (APIs) endpoints, and database designs utilizing Angular TypeScript, C# .Net and SQL Server technologies.",
+        "Experience with utilizing CI/CD pipelines using Jenkins, Microsoft Azure, and OpenShift for end-to-end automation for all builds.",
+        "Created Unit Tests for both front-end and back-end frameworks using Karma/Jest and MSTest technologies respectively.",
+        "Upgraded multiple API's .Net Core software frameworks, remediating vulnerabilities from the software application.",
+        "Utilized automated governance to increase cybersecurity in applications by practicing defensive programming techniques."
+      ],
+    },
+    {
+      title: "Software Engineer Lead",
+      company_name: "PNC Bank",
+      icon: pnc,
+      iconBg: "#E6DEDD",
+      date: "Mar 2024 - Present",
+      points: [
+        "Currently leading design/development of a web portal for all PNC Employees to trace and process customers who have passed away.",
+        "Led design and development on projects to automate the manual processing of loans utilizing SQL Server, C# .Net and Angular TypeScript full-stack technologies; Saved PNC Bank ~$250,000 and Improved loan processing efficiency by 50%.",
+        "Design technical work items to various software developers and perform code reviews to ensure quality of code meets business expectations.",
+        "Present multiple product demos to business clients demonstrating the team's progress on our project.",
+        "Built reusable User Interface components for other software developers to utilize. Increased development efficiency by 25%.",
       ],
     },
   ];
