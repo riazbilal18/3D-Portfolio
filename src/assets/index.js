@@ -13,13 +13,23 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import sqlserver from "./tech/sqlserver.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png"
+import netcore from "./tech/netcore.png"
+import csharp from "./tech/csharp.png"
+import java from "./tech/java.png" 
+import azure from "./tech/azure.png" 
+import openshift from "./tech/openshift.png"
+import bitbucket from "./tech/bitbucket.png"
+
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,7 +55,7 @@ export {
   git,
   html,
   javascript,
-  mongodb,
+  sqlserver,
   nodejs,
   reactjs,
   redux,
@@ -59,4 +69,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  netcore,
+  csharp,
+  java,
+  azure,
+  openshift,
+  bitbucket,
+  
 };

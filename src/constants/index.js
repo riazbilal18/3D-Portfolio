@@ -11,7 +11,7 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    sqlserver,
     git,
     figma,
     docker,
@@ -23,6 +23,13 @@ import {
     tripguide,
     threejs,
     pnc,
+    python,
+    netcore,
+    csharp,
+    java,
+    azure,
+    openshift,
+    bitbucket,
   } from "../assets";
   
   export const navLinks = [
@@ -77,6 +84,18 @@ import {
       icon: typescript,
     },
     {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
@@ -85,16 +104,29 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: ".NET Core",
+      icon: netcore,
+    },
+    {
+      name: "SQL Server",
+      icon: sqlserver,
+    },
+    {
+      name: "Azure",
+      icon: azure,
+    },
+   
+    {
+      name: "BitBucket",
+      icon: bitbucket,
     },
     {
       name: "Git",
       icon: git,
     },
     {
-      name: "Figma",
-      icon: figma,
+      name: "OpenShift",
+      icon: openshift,
     },
     {
       name: "Docker",

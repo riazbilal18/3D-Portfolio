@@ -12,7 +12,7 @@ import Loader from "../Loader";
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+    <Float speed={1.75} rotationIntensity={1} floatIntensity={2} autoInvalidate>
       <ambientLight intensity={1} />
       <directionalLight position={[0, 0, 0.25]} />
       <mesh castShadow receiveShadow scale={2.75}>
@@ -25,8 +25,9 @@ const Ball = (props) => {
         />
         <Decal
           position={[0, 0, 1]}
-          map={decal}
           rotation={[2 * Math.PI, 0, 6.25]}
+          scale={1}
+          map={decal}
           flatShading
         />
       </mesh>
