@@ -23,6 +23,16 @@ import {
     tripguide,
     threejs,
     pnc,
+    momotool,
+    blackjacktrainer,
+    python,
+    netcore,
+    csharp,
+    java,
+    azure,
+    openshift,
+    bitbucket,
+    sqlserver,
   } from "../assets";
   
   export const navLinks = [
@@ -76,6 +86,18 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
+     {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -85,20 +107,28 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "SQL Server",
+      icon: sqlserver,
     },
     {
       name: "Git",
       icon: git,
     },
     {
-      name: "Figma",
-      icon: figma,
+      name: "Azure",
+      icon: azure,
     },
     {
       name: "Docker",
       icon: docker,
+    },
+    {
+      name: ".NET Core",
+      icon: netcore,
+    },
+    {
+      name: "OpenShift",
+      icon: openshift,
     },
   ];
   
@@ -189,68 +219,51 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Momo Database Editing Tool",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web based platform enabling authorized non-technical employees to add, search, and manipulate the company’s database. Improved overall efficiency for the company’s production process",
       tags: [
         {
-          name: "react",
+          name: "React TypeScript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Apollo GraphQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: momotool,
+      source_code_link: "https://www.loom.com/share/ccede362cafc430f9824fdbf3091bfb6",
     },
     {
-      name: "Job IT",
+      name: "BlackJack Trainer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a Blackjack game that informs players whether to 'hit' or 'stand' based on the current state of the game. This enables players to practice basic Blackjack strategies to prepare users for a real game",
       tags: [
         {
-          name: "react",
+          name: "React TypeScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Google Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: blackjacktrainer,
+      source_code_link: "https://github.com/JasonM3687/Black-Jack-Trainer-CS1520",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
