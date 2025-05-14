@@ -6,12 +6,11 @@ import Loader from "../Loader";
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
 
-  return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
-  );
+  return <primitive object={earth.scene} scale={2.5} />;
 };
 
 const EarthCanvas = () => {
+  // return (
   <Canvas
     shadows
     frameloop="demand"
@@ -36,6 +35,7 @@ const EarthCanvas = () => {
       <Preload all />
     </Suspense>
   </Canvas>;
+  // );
 };
 
 export default EarthCanvas;
