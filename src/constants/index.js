@@ -33,6 +33,8 @@ import {
     openshift,
     bitbucket,
     sqlserver,
+    angular,
+    googlecloud
   } from "../assets";
   
   export const navLinks = [
@@ -71,14 +73,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -99,12 +93,12 @@ import {
       icon: java,
     },
     {
-      name: "React JS",
+      name: "React",
       icon: reactjs,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Angular",
+      icon: angular,
     },
     {
       name: "SQL Server",

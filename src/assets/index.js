@@ -29,6 +29,8 @@ import azure from "./tech/azure.png"
 import openshift from "./tech/redhat.png"
 import bitbucket from "./tech/bitbucket.png"
 import sqlserver from "./tech/sqlserver.png";
+import angular from "./tech/angular.png"
+import googlecloud from "./tech/googlecloud.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -81,4 +83,6 @@ export {
   openshift,
   bitbucket,
   sqlserver,
+  angular,
+  googlecloud,
 };
