@@ -1,4 +1,4 @@
-import logo from "./bilal-high-resolution-logo-transparent.png";
+import logo from "./b-high-resolution-logo-transparent.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
