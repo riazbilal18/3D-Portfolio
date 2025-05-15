@@ -105,10 +105,6 @@ import {
       icon: sqlserver,
     },
     {
-      name: "Git",
-      icon: git,
-    },
-    {
       name: "Azure",
       icon: azure,
     },
