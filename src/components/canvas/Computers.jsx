@@ -9,13 +9,13 @@ const Computers = ({ isMobile }) => {
   return (
     <mesh>
       <hemisphereLight intensity={3} groundColor="black" />
-      <pointLight intensity={3} />
+      <pointLight intensity={isMobile ? 1 : 3} />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
-        intensity={3}
-        castShadow
+        intensity={isMobile ? 1 : 3}
+        castShadow={!isMobile}
         shadow-mapsize={1024}
       />
       <primitive
@@ -56,8 +56,8 @@ const ComputerCanvas = () => {
       frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
+      dpr={isMobile ? 1 : [1, 2]}
+      gl={{ preserveDrawingBuffer: true, antialias: !isMobile }}
     >
       <Suspense fallback={<Loader />}>
         <OrbitControls
