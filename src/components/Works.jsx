@@ -15,6 +15,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   live_site_link,
+  display_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -71,6 +72,17 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+        {name == "BlackJack Trainer" && (
+          <div className=" mt-4 flex flex-wrap ">
+            <p
+              className="text-white text-[14px] cursor-pointer"
+              onClick={() => window.open(live_site_link, "_blank")}
+            >
+              {display_link}
+            </p>
+          </div>
+        )}
       </Tilt>
     </motion.div>
   );

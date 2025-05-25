@@ -253,7 +253,8 @@ import {
       ],
       image: blackjacktrainer,
       source_code_link: "https://github.com/JasonM3687/Black-Jack-Trainer-CS1520",
-      live_site_link: "https://trainerblackjack.com"
+      live_site_link: "https://trainerblackjack.com",
+      display_link: "trainerblackjack.com"
     }
   ];
   
