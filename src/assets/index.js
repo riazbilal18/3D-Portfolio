@@ -42,6 +42,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import momotool from "./momo-tool.png"
 import blackjacktrainer from "./blackjack-trainer.png"
+import chippy from "./chippy-removebg-preview.png"
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   sqlserver,
   angular,
   googlecloud,
+  chippy,
 };

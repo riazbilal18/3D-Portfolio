@@ -50,10 +50,6 @@ import {
       id: "contact",
       title: "Contact",
     },
-     {
-      id: "interactive",
-      title: "Interactive",
-    },
   ];
   
   const services = [
@@ -257,6 +253,7 @@ import {
       ],
       image: blackjacktrainer,
       source_code_link: "https://github.com/JasonM3687/Black-Jack-Trainer-CS1520",
+      live_site_link: "https://trainerblackjack.com"
     }
   ];
   
