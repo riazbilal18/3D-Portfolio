@@ -7,7 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-import Interactive from './Interactive';
+import MarioKartGame from './MarioKartGame';
 
 export {
   Hero,
@@ -22,5 +22,5 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Interactive
+  MarioKartGame
 }
